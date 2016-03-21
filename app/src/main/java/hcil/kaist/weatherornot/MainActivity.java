@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         weather[6] = (ImageView)findViewById(R.id.img_weather_hour4);
         weather[7] = (ImageView)findViewById(R.id.img_weather_hour5);
 
+
         for(int i = 0 ; i < 8 ; i++){
             weather[i].setImageResource(R.mipmap.ic_launcher);
         }
